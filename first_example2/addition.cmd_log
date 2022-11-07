@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ekorletey/first_example2/addition.xst" -ofn "/home/ekorletey/first_example2/addition.syr" 

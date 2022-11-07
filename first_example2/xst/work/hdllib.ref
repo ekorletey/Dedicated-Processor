@@ -1,0 +1,18 @@
+AR nreg behavioral "/home/ekorletey/VHDL examples/first_presentation/N.vhd" sub00/vhpl11 1667567994
+EN example1 NULL "/home/ekorletey/VHDL examples/first_presentation/Example1.vhd" sub00/vhpl14 1667568005
+EN addition NULL "/home/ekorletey/VHDL examples/first_presentation/addition.vhd" sub00/vhpl12 1667567995
+EN d_flipflop NULL /home/ekorletey/first_example2/D_flipflop.vhd sub00/vhpl00 1667567997
+AR processor behavioral /home/ekorletey/first_example2/Processor.vhd sub00/vhpl17 1667568008
+EN nreg NULL "/home/ekorletey/VHDL examples/first_presentation/N.vhd" sub00/vhpl10 1667567993
+AR control_unit behavioral /home/ekorletey/first_example2/control_unit.vhd sub00/vhpl07 1667568004
+AR d1_flipflop behavioral /home/ekorletey/first_example2/D1_flipflop.vhd sub00/vhpl06 1667568002
+EN sum NULL "/home/ekorletey/VHDL examples/first_presentation/sum.vhd" sub00/vhpl08 1667567991
+EN processor NULL /home/ekorletey/first_example2/Processor.vhd sub00/vhpl16 1667568007
+AR example1 behavioral "/home/ekorletey/VHDL examples/first_presentation/Example1.vhd" sub00/vhpl15 1667568006
+AR d_flipflop behavioral /home/ekorletey/first_example2/D_flipflop.vhd sub00/vhpl01 1667567998
+EN d1_flipflop NULL /home/ekorletey/first_example2/D1_flipflop.vhd sub00/vhpl05 1667568001
+AR addition behavioral "/home/ekorletey/VHDL examples/first_presentation/addition.vhd" sub00/vhpl13 1667567996
+AR d0_flipflop behavioral /home/ekorletey/first_example2/D0_flipflop.vhd sub00/vhpl04 1667568000
+EN control_unit NULL /home/ekorletey/first_example2/control_unit.vhd sub00/vhpl02 1667568003
+AR sum behavioral "/home/ekorletey/VHDL examples/first_presentation/sum.vhd" sub00/vhpl09 1667567992
+EN d0_flipflop NULL /home/ekorletey/first_example2/D0_flipflop.vhd sub00/vhpl03 1667567999

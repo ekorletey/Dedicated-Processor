@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ekorletey/first_example2/Processor_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="processor" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/processor/entry" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">entry[7:0]</obj_property>
+      <obj_property name="ObjectShortName">entry[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/answer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">answer[7:0]</obj_property>
+      <obj_property name="ObjectShortName">answer[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/nloadtemp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nloadtemp</obj_property>
+      <obj_property name="ObjectShortName">nloadtemp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/ncounttemp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ncounttemp</obj_property>
+      <obj_property name="ObjectShortName">ncounttemp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/cleartemp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cleartemp</obj_property>
+      <obj_property name="ObjectShortName">cleartemp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/sumloadtemp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sumloadtemp</obj_property>
+      <obj_property name="ObjectShortName">sumloadtemp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/outentemp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">outentemp</obj_property>
+      <obj_property name="ObjectShortName">outentemp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/resettemp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">resettemp</obj_property>
+      <obj_property name="ObjectShortName">resettemp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/entrytemp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">entrytemp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">entrytemp[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/n0eq0temp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n0eq0temp</obj_property>
+      <obj_property name="ObjectShortName">n0eq0temp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/answertemp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">answertemp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">answertemp[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/second_connection/addoutput" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addoutput[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addoutput[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/processor/second_connection/qoutsum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qoutsum[7:0]</obj_property>
+      <obj_property name="ObjectShortName">qoutsum[7:0]</obj_property>
+   </wvobject>
+</wave_config>

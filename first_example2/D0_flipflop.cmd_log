@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ekorletey/first_example2/D0_flipflop.xst" -ofn "/home/ekorletey/first_example2/D0_flipflop.syr" 

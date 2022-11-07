@@ -1,0 +1,39 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -o "/home/ekorletey/first_example2/Processor_isim_beh.exe" -prj "/home/ekorletey/first_example2/Processor_beh.prj" "work.Processor" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ekorletey/first_example2/../VHDL examples/first_presentation/sum.vhd" into library work
+Parsing VHDL file "/home/ekorletey/first_example2/../VHDL examples/first_presentation/N.vhd" into library work
+Parsing VHDL file "/home/ekorletey/first_example2/../VHDL examples/first_presentation/addition.vhd" into library work
+Parsing VHDL file "/home/ekorletey/first_example2/D_flipflop.vhd" into library work
+Parsing VHDL file "/home/ekorletey/first_example2/D1_flipflop.vhd" into library work
+Parsing VHDL file "/home/ekorletey/first_example2/D0_flipflop.vhd" into library work
+Parsing VHDL file "/home/ekorletey/first_example2/../VHDL examples/first_presentation/Example1.vhd" into library work
+Parsing VHDL file "/home/ekorletey/first_example2/control_unit.vhd" into library work
+Parsing VHDL file "/home/ekorletey/first_example2/Processor.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 86444 KB
+Fuse CPU Usage: 2810 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling architecture behavioral of entity D_flipflop [d_flipflop_default]
+Compiling architecture behavioral of entity D0_flipflop [d0_flipflop_default]
+Compiling architecture behavioral of entity D1_flipflop [d1_flipflop_default]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity sum [sum_default]
+Compiling architecture behavioral of entity NREG [nreg_default]
+Compiling architecture behavioral of entity addition [addition_default]
+Compiling architecture behavioral of entity Example1 [example1_default]
+Compiling architecture behavioral of entity processor
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 22 VHDL Units
+Built simulation executable /home/ekorletey/first_example2/Processor_isim_beh.exe
+Fuse Memory Usage: 400256 KB
+Fuse CPU Usage: 3070 ms
+GCC CPU Usage: 280 ms

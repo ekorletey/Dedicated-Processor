@@ -1,0 +1,511 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: Processor.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Processor.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Processor"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-pq208
+
+---- Source Options
+Top Module Name                    : Processor
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ekorletey/VHDL examples/first_presentation/sum.vhd" in Library work.
+Architecture behavioral of Entity sum is up to date.
+Compiling vhdl file "/home/ekorletey/VHDL examples/first_presentation/N.vhd" in Library work.
+Architecture behavioral of Entity nreg is up to date.
+Compiling vhdl file "/home/ekorletey/VHDL examples/first_presentation/addition.vhd" in Library work.
+Architecture behavioral of Entity addition is up to date.
+Compiling vhdl file "/home/ekorletey/first_example2/D_flipflop.vhd" in Library work.
+Architecture behavioral of Entity d_flipflop is up to date.
+Compiling vhdl file "/home/ekorletey/first_example2/D0_flipflop.vhd" in Library work.
+Architecture behavioral of Entity d0_flipflop is up to date.
+Compiling vhdl file "/home/ekorletey/first_example2/D1_flipflop.vhd" in Library work.
+Architecture behavioral of Entity d1_flipflop is up to date.
+Compiling vhdl file "/home/ekorletey/first_example2/control_unit.vhd" in Library work.
+Architecture behavioral of Entity control_unit is up to date.
+Compiling vhdl file "/home/ekorletey/VHDL examples/first_presentation/Example1.vhd" in Library work.
+Architecture behavioral of Entity example1 is up to date.
+Compiling vhdl file "/home/ekorletey/first_example2/Processor.vhd" in Library work.
+Entity <processor> compiled.
+Entity <processor> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Processor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <control_unit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Example1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <D_flipflop> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <D0_flipflop> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <D1_flipflop> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <sum> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <NREG> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <addition> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Processor> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "/home/ekorletey/first_example2/Processor.vhd" line 89: Unconnected output port 'Done' of component 'Example1'.
+Entity <Processor> analyzed. Unit <Processor> generated.
+
+Analyzing Entity <control_unit> in library <work> (Architecture <behavioral>).
+Entity <control_unit> analyzed. Unit <control_unit> generated.
+
+Analyzing Entity <D_flipflop> in library <work> (Architecture <behavioral>).
+Entity <D_flipflop> analyzed. Unit <D_flipflop> generated.
+
+Analyzing Entity <D0_flipflop> in library <work> (Architecture <behavioral>).
+Entity <D0_flipflop> analyzed. Unit <D0_flipflop> generated.
+
+Analyzing Entity <D1_flipflop> in library <work> (Architecture <behavioral>).
+Entity <D1_flipflop> analyzed. Unit <D1_flipflop> generated.
+
+Analyzing Entity <Example1> in library <work> (Architecture <behavioral>).
+Entity <Example1> analyzed. Unit <Example1> generated.
+
+Analyzing Entity <sum> in library <work> (Architecture <behavioral>).
+Entity <sum> analyzed. Unit <sum> generated.
+
+Analyzing Entity <NREG> in library <work> (Architecture <behavioral>).
+Entity <NREG> analyzed. Unit <NREG> generated.
+
+Analyzing Entity <addition> in library <work> (Architecture <behavioral>).
+Entity <addition> analyzed. Unit <addition> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <D_flipflop>.
+    Related source file is "/home/ekorletey/first_example2/D_flipflop.vhd".
+    Found 1-bit register for signal <Qnot>.
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <D_flipflop> synthesized.
+
+
+Synthesizing Unit <D0_flipflop>.
+    Related source file is "/home/ekorletey/first_example2/D0_flipflop.vhd".
+    Found 1-bit register for signal <Q0>.
+    Found 1-bit register for signal <Q0not>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <D0_flipflop> synthesized.
+
+
+Synthesizing Unit <D1_flipflop>.
+    Related source file is "/home/ekorletey/first_example2/D1_flipflop.vhd".
+    Found 1-bit register for signal <Q1>.
+    Found 1-bit register for signal <Q1not>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <D1_flipflop> synthesized.
+
+
+Synthesizing Unit <sum>.
+    Related source file is "/home/ekorletey/VHDL examples/first_presentation/sum.vhd".
+WARNING:Xst:647 - Input <sumload> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit register for signal <Q>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <sum> synthesized.
+
+
+Synthesizing Unit <NREG>.
+    Related source file is "/home/ekorletey/VHDL examples/first_presentation/N.vhd".
+    Found 8-bit register for signal <Q_temp>.
+    Found 8-bit subtractor for signal <Q_temp$addsub0000> created at line 53.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <NREG> synthesized.
+
+
+Synthesizing Unit <addition>.
+    Related source file is "/home/ekorletey/VHDL examples/first_presentation/addition.vhd".
+    Found 8-bit adder for signal <ADDOUT>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <addition> synthesized.
+
+
+Synthesizing Unit <control_unit>.
+    Related source file is "/home/ekorletey/first_example2/control_unit.vhd".
+Unit <control_unit> synthesized.
+
+
+Synthesizing Unit <Example1>.
+    Related source file is "/home/ekorletey/VHDL examples/first_presentation/Example1.vhd".
+WARNING:Xst:737 - Found 8-bit latch for signal <OUTPUT>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <Example1> synthesized.
+
+
+Synthesizing Unit <Processor>.
+    Related source file is "/home/ekorletey/first_example2/Processor.vhd".
+Unit <Processor> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 8-bit adder                                           : 1
+ 8-bit subtractor                                      : 1
+# Registers                                            : 8
+ 1-bit register                                        : 6
+ 8-bit register                                        : 2
+# Latches                                              : 1
+ 8-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 8-bit adder                                           : 1
+ 8-bit subtractor                                      : 1
+# Registers                                            : 22
+ Flip-Flops                                            : 22
+# Latches                                              : 1
+ 8-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Processor> ...
+
+Optimizing unit <sum> ...
+
+Optimizing unit <NREG> ...
+
+Optimizing unit <control_unit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Processor, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 22
+ Flip-Flops                                            : 22
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Processor.ngr
+Top Level Output File Name         : Processor
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 50
+#      GND                         : 1
+#      LUT2                        : 10
+#      LUT2_L                      : 1
+#      LUT3                        : 8
+#      LUT3_D                      : 1
+#      LUT4                        : 11
+#      LUT4_D                      : 2
+#      MUXCY                       : 7
+#      VCC                         : 1
+#      XORCY                       : 8
+# FlipFlops/Latches                : 30
+#      FDC                         : 8
+#      FDE                         : 8
+#      FDR                         : 6
+#      LD                          : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 9
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200pq208-5 
+
+ Number of Slices:                       18  out of   1920     0%  
+ Number of Slice Flip Flops:             22  out of   3840     0%  
+ Number of 4 input LUTs:                 33  out of   3840     0%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    141    12%  
+    IOB Flip Flops:                       8
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------+------------------------------------+-------+
+Clock Signal                         | Clock buffer(FF name)              | Load  |
+-------------------------------------+------------------------------------+-------+
+OutEntemp(first_connection/nCount1:O)| NONE(*)(second_connection/OUTPUT_0)| 8     |
+clock                                | BUFGP                              | 22    |
+-------------------------------------+------------------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+------------------------------------+---------------------------------+-------+
+Control Signal                      | Buffer(FF name)                 | Load  |
+------------------------------------+---------------------------------+-------+
+cleartemp(first_connection/clear1:O)| NONE(second_connection/sum1/Q_0)| 8     |
+------------------------------------+---------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.930ns (Maximum Frequency: 168.638MHz)
+   Minimum input arrival time before clock: 5.058ns
+   Maximum output required time after clock: 6.141ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 5.930ns (frequency: 168.638MHz)
+  Total number of paths / destination ports: 236 / 30
+-------------------------------------------------------------------------
+Delay:               5.930ns (Levels of Logic = 3)
+  Source:            second_connection/sum1/Q_0 (FF)
+  Destination:       first_connection/FLipflop1/Q0not (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: second_connection/sum1/Q_0 to first_connection/FLipflop1/Q0not
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.626   1.066  second_connection/sum1/Q_0 (second_connection/sum1/Q_0)
+     LUT4:I0->O            2   0.479   1.040  second_connection/N0eq0_cmp_eq000012 (second_connection/N0eq0_cmp_eq000012)
+     LUT2_L:I0->LO         1   0.479   0.123  second_connection/N0eq0_cmp_eq000026 (N0eq0temp)
+     LUT4:I3->O            2   0.479   0.745  first_connection/tempD1in (first_connection/tempD1in)
+     FDR:R                     0.892          first_connection/FLipflop1/Q0not
+    ----------------------------------------
+    Total                      5.930ns (2.955ns logic, 2.975ns route)
+                                       (49.8% logic, 50.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 39 / 11
+-------------------------------------------------------------------------
+Offset:              5.058ns (Levels of Logic = 4)
+  Source:            entry<2> (PAD)
+  Destination:       second_connection/nreg1/Q_temp_4 (FF)
+  Destination Clock: clock rising
+
+  Data Path: entry<2> to second_connection/nreg1/Q_temp_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  entry_2_IBUF (entry_2_IBUF)
+     LUT3:I0->O            1   0.479   0.851  first_connection/nLoad1_SW0 (N11)
+     LUT4_D:I1->O          4   0.479   0.838  second_connection/nreg1/Q_temp_mux0000<3>21 (second_connection/nreg1/Q_temp_mux0000<3>_bdd0)
+     LUT3:I2->O            1   0.479   0.000  second_connection/nreg1/Q_temp_mux0000<4>11 (second_connection/nreg1/Q_temp_mux0000<4>)
+     FDE:D                     0.176          second_connection/nreg1/Q_temp_4
+    ----------------------------------------
+    Total                      5.058ns (2.328ns logic, 2.730ns route)
+                                       (46.0% logic, 54.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'OutEntemp'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              6.141ns (Levels of Logic = 1)
+  Source:            second_connection/OUTPUT_7 (LATCH)
+  Destination:       answer<7> (PAD)
+  Source Clock:      OutEntemp falling
+
+  Data Path: second_connection/OUTPUT_7 to answer<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.551   0.681  second_connection/OUTPUT_7 (second_connection/OUTPUT_7)
+     OBUF:I->O                 4.909          answer_7_OBUF (answer<7>)
+    ----------------------------------------
+    Total                      6.141ns (5.460ns logic, 0.681ns route)
+                                       (88.9% logic, 11.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.11 secs
+ 
+--> 
+
+
+Total memory usage is 505632 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

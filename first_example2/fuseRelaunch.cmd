@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ekorletey/first_example2/Processor_isim_beh.exe" -prj "/home/ekorletey/first_example2/Processor_beh.prj" "work.Processor" 
