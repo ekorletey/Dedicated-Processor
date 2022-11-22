@@ -50,7 +50,7 @@ begin
     if(nload = '1') then 
 	  Q_temp<= Input_n; 
 	  elsif (ncount = '1') then 
-	  Q_temp <= Input_n - 1;
+	  Q_temp <= Q_temp - 1;
 	  end if;
 	 end if;
 end process;

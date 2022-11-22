@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.04 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> 
 Reading design: Processor.prj
@@ -107,25 +107,26 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/home/ekorletey/VHDL examples/first_presentation/sum.vhd" in Library work.
-Architecture behavioral of Entity sum is up to date.
-Compiling vhdl file "/home/ekorletey/VHDL examples/first_presentation/N.vhd" in Library work.
-Architecture behavioral of Entity nreg is up to date.
-Compiling vhdl file "/home/ekorletey/VHDL examples/first_presentation/addition.vhd" in Library work.
-Architecture behavioral of Entity addition is up to date.
-Compiling vhdl file "/home/ekorletey/first_example2/D_flipflop.vhd" in Library work.
+WARNING:HDLParsers:3607 - Unit work/Processor is now defined in a different file.  It was defined in "/home/ekorletey/first_example2/Processor.vhd", and is now defined in "/home/ekorletey/Processor/first_example2/Processor.vhd".
+WARNING:HDLParsers:3607 - Unit work/Processor/Behavioral is now defined in a different file.  It was defined in "/home/ekorletey/first_example2/Processor.vhd", and is now defined in "/home/ekorletey/Processor/first_example2/Processor.vhd".
+WARNING:HDLParsers:3607 - Unit work/control_unit is now defined in a different file.  It was defined in "/home/ekorletey/first_example2/control_unit.vhd", and is now defined in "/home/ekorletey/Processor/first_example2/control_unit.vhd".
+WARNING:HDLParsers:3607 - Unit work/control_unit/Behavioral is now defined in a different file.  It was defined in "/home/ekorletey/first_example2/control_unit.vhd", and is now defined in "/home/ekorletey/Processor/first_example2/control_unit.vhd".
+WARNING:HDLParsers:3607 - Unit work/D0_flipflop is now defined in a different file.  It was defined in "/home/ekorletey/first_example2/D0_flipflop.vhd", and is now defined in "/home/ekorletey/Processor/first_example2/D0_flipflop.vhd".
+WARNING:HDLParsers:3607 - Unit work/D0_flipflop/Behavioral is now defined in a different file.  It was defined in "/home/ekorletey/first_example2/D0_flipflop.vhd", and is now defined in "/home/ekorletey/Processor/first_example2/D0_flipflop.vhd".
+WARNING:HDLParsers:3607 - Unit work/D1_flipflop is now defined in a different file.  It was defined in "/home/ekorletey/first_example2/D1_flipflop.vhd", and is now defined in "/home/ekorletey/Processor/first_example2/D1_flipflop.vhd".
+WARNING:HDLParsers:3607 - Unit work/D1_flipflop/Behavioral is now defined in a different file.  It was defined in "/home/ekorletey/first_example2/D1_flipflop.vhd", and is now defined in "/home/ekorletey/Processor/first_example2/D1_flipflop.vhd".
+WARNING:HDLParsers:3607 - Unit work/D_flipflop is now defined in a different file.  It was defined in "/home/ekorletey/first_example2/D_flipflop.vhd", and is now defined in "/home/ekorletey/Processor/first_example2/D_flipflop.vhd".
+WARNING:HDLParsers:3607 - Unit work/D_flipflop/Behavioral is now defined in a different file.  It was defined in "/home/ekorletey/first_example2/D_flipflop.vhd", and is now defined in "/home/ekorletey/Processor/first_example2/D_flipflop.vhd".
+Compiling vhdl file "/home/ekorletey/Processor/first_example2/D_flipflop.vhd" in Library work.
 Architecture behavioral of Entity d_flipflop is up to date.
-Compiling vhdl file "/home/ekorletey/first_example2/D0_flipflop.vhd" in Library work.
+Compiling vhdl file "/home/ekorletey/Processor/first_example2/D0_flipflop.vhd" in Library work.
 Architecture behavioral of Entity d0_flipflop is up to date.
-Compiling vhdl file "/home/ekorletey/first_example2/D1_flipflop.vhd" in Library work.
+Compiling vhdl file "/home/ekorletey/Processor/first_example2/D1_flipflop.vhd" in Library work.
 Architecture behavioral of Entity d1_flipflop is up to date.
-Compiling vhdl file "/home/ekorletey/first_example2/control_unit.vhd" in Library work.
+Compiling vhdl file "/home/ekorletey/Processor/first_example2/control_unit.vhd" in Library work.
 Architecture behavioral of Entity control_unit is up to date.
-Compiling vhdl file "/home/ekorletey/VHDL examples/first_presentation/Example1.vhd" in Library work.
-Architecture behavioral of Entity example1 is up to date.
-Compiling vhdl file "/home/ekorletey/first_example2/Processor.vhd" in Library work.
-Entity <processor> compiled.
-Entity <processor> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/ekorletey/Processor/first_example2/Processor.vhd" in Library work.
+Architecture behavioral of Entity processor is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -153,7 +154,7 @@ Analyzing hierarchy for entity <addition> in library <work> (architecture <behav
 *                            HDL Analysis                               *
 =========================================================================
 Analyzing Entity <Processor> in library <work> (Architecture <behavioral>).
-WARNING:Xst:753 - "/home/ekorletey/first_example2/Processor.vhd" line 89: Unconnected output port 'Done' of component 'Example1'.
+WARNING:Xst:753 - "/home/ekorletey/Processor/first_example2/Processor.vhd" line 89: Unconnected output port 'Done' of component 'Example1'.
 Entity <Processor> analyzed. Unit <Processor> generated.
 
 Analyzing Entity <control_unit> in library <work> (Architecture <behavioral>).
@@ -188,7 +189,7 @@ Entity <addition> analyzed. Unit <addition> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <D_flipflop>.
-    Related source file is "/home/ekorletey/first_example2/D_flipflop.vhd".
+    Related source file is "/home/ekorletey/Processor/first_example2/D_flipflop.vhd".
     Found 1-bit register for signal <Qnot>.
     Found 1-bit register for signal <Q>.
     Summary:
@@ -197,7 +198,7 @@ Unit <D_flipflop> synthesized.
 
 
 Synthesizing Unit <D0_flipflop>.
-    Related source file is "/home/ekorletey/first_example2/D0_flipflop.vhd".
+    Related source file is "/home/ekorletey/Processor/first_example2/D0_flipflop.vhd".
     Found 1-bit register for signal <Q0>.
     Found 1-bit register for signal <Q0not>.
     Summary:
@@ -206,7 +207,7 @@ Unit <D0_flipflop> synthesized.
 
 
 Synthesizing Unit <D1_flipflop>.
-    Related source file is "/home/ekorletey/first_example2/D1_flipflop.vhd".
+    Related source file is "/home/ekorletey/Processor/first_example2/D1_flipflop.vhd".
     Found 1-bit register for signal <Q1>.
     Found 1-bit register for signal <Q1not>.
     Summary:
@@ -242,7 +243,7 @@ Unit <addition> synthesized.
 
 
 Synthesizing Unit <control_unit>.
-    Related source file is "/home/ekorletey/first_example2/control_unit.vhd".
+    Related source file is "/home/ekorletey/Processor/first_example2/control_unit.vhd".
 Unit <control_unit> synthesized.
 
 
@@ -253,7 +254,7 @@ Unit <Example1> synthesized.
 
 
 Synthesizing Unit <Processor>.
-    Related source file is "/home/ekorletey/first_example2/Processor.vhd".
+    Related source file is "/home/ekorletey/Processor/first_example2/Processor.vhd".
 Unit <Processor> synthesized.
 
 
@@ -497,15 +498,15 @@ Offset:              6.141ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 2.11 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.93 secs
  
 --> 
 
 
-Total memory usage is 505632 kilobytes
+Total memory usage is 504568 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    3 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
 Number of infos    :    1 (   0 filtered)
 

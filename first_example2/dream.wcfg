@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ekorletey/Processor/first_example2/Example1_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="example1" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/example1/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/input" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/clear" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/sumload" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sumload</obj_property>
+      <obj_property name="ObjectShortName">sumload</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/ncount" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ncount</obj_property>
+      <obj_property name="ObjectShortName">ncount</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/nload" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nload</obj_property>
+      <obj_property name="ObjectShortName">nload</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/outdone" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">outdone</obj_property>
+      <obj_property name="ObjectShortName">outdone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/n0eq0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n0eq0</obj_property>
+      <obj_property name="ObjectShortName">n0eq0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/qoutn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qoutn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">qoutn[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/qoutsum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">qoutsum[7:0]</obj_property>
+      <obj_property name="ObjectShortName">qoutsum[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/addoutput" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addoutput[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addoutput[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider14" type="divider">
+      <obj_property name="label">COMPONENT OUTPUTS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/add1/addout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addout[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/nreg1/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">q[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/example1/sum1/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">q[7:0]</obj_property>
+   </wvobject>
+</wave_config>

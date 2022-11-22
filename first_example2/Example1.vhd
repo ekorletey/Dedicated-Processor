@@ -107,9 +107,9 @@ begin
 		ADDOUT => addOutput
 	);
 		
-		N0eq0 <= '1' when Qoutsum = "00000000" else '0';
+		N0eq0 <= '1' when Qoutn = "00000000" else '0';
 		
-		OUTPUT <= Qoutsum when OutDone = '1'; --may cause issue...
+		OUTPUT <= Qoutsum when OutDone = '1' else "00000000"; --may cause issue...
 		Done <= OutDone;
 		
 		

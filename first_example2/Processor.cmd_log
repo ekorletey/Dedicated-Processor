@@ -10,3 +10,4 @@ xst -intstyle ise -ifn "/home/ekorletey/first_example2/Processor.xst" -ofn "/hom
 xst -intstyle ise -ifn "/home/ekorletey/first_example2/Processor.xst" -ofn "/home/ekorletey/first_example2/Processor.syr" 
 xst -intstyle ise -ifn "/home/ekorletey/first_example2/Processor.xst" -ofn "/home/ekorletey/first_example2/Processor.syr" 
 xst -intstyle ise -ifn "/home/ekorletey/first_example2/Processor.xst" -ofn "/home/ekorletey/first_example2/Processor.syr" 
+xst -intstyle ise -ifn "/home/ekorletey/Processor/first_example2/Processor.xst" -ofn "/home/ekorletey/Processor/first_example2/Processor.syr" 

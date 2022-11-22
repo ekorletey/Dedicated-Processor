@@ -1,0 +1,6 @@
+vhdl work "sum.vhd"
+vhdl work "N.vhd"
+vhdl work "addition.vhd"
+vhdl work "Example1.vhd"
+vhdl work "CU.vhd"
+vhdl work "TOP.vhd"

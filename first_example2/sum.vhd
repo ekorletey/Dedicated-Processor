@@ -47,8 +47,11 @@ process( clock, clear) is
 BEGIN
 if (clear = '1') then 
  Q <=(others =>'0');
+ 
  elsif(rising_edge(clock)) then 
- Q <= D;
+	if(sumload = '1') then 
+		 Q <= D;
+	end if;
  end if;
  END PROCESS;
  
